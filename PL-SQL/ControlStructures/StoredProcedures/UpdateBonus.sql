@@ -1,0 +1,34 @@
+CREATE OR REPLACE PROCEDURE UpdateEmployeeBonus
+(
+dept VARCHAR2,
+bonus NUMBER
+)
+
+AS
+
+
+BEGIN
+
+
+UPDATE Employees
+
+SET Salary =
+Salary + (Salary * bonus/100)
+
+
+WHERE Department = dept;
+
+
+
+COMMIT;
+
+
+
+DBMS_OUTPUT.PUT_LINE(
+'Bonus Updated'
+);
+
+
+
+END;
+/
