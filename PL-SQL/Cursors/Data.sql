@@ -1,0 +1,45 @@
+INSERT INTO Customers
+VALUES
+(1,'John');
+
+
+INSERT INTO Customers
+VALUES
+(2,'Jane');
+
+
+
+INSERT INTO Transactions
+VALUES
+(101,1,SYSDATE,1000,'Deposit');
+
+
+INSERT INTO Transactions
+VALUES
+(102,2,SYSDATE,500,'Withdrawal');
+
+
+
+INSERT INTO Accounts
+VALUES
+(1,1,10000);
+
+
+INSERT INTO Accounts
+VALUES
+(2,2,20000);
+
+
+
+INSERT INTO Loans
+VALUES
+(1,1,8);
+
+
+INSERT INTO Loans
+VALUES
+(2,2,9);
+
+
+
+COMMIT;
