@@ -1,0 +1,19 @@
+INSERT INTO Accounts
+VALUES
+(101,'John',5000);
+
+
+
+INSERT INTO Accounts
+VALUES
+(102,'David',2000);
+
+
+
+INSERT INTO Employees
+VALUES
+(1,'Alice',50000);
+
+
+
+COMMIT;
