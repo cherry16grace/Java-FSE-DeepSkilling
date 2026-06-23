@@ -1,0 +1,25 @@
+INSERT INTO Customers
+VALUES
+(1,'John',10000);
+
+
+
+INSERT INTO Employees
+VALUES
+(1,'Alice',50000);
+
+
+
+INSERT INTO Accounts
+VALUES
+(101,1,5000);
+
+
+
+INSERT INTO Accounts
+VALUES
+(102,1,7000);
+
+
+
+COMMIT;
