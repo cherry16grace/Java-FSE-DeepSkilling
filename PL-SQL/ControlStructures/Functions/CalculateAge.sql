@@ -1,0 +1,31 @@
+CREATE OR REPLACE FUNCTION CalculateAge
+(
+    dob DATE
+)
+
+RETURN NUMBER
+
+AS
+
+age NUMBER;
+
+
+BEGIN
+
+
+age :=
+TRUNC(
+MONTHS_BETWEEN(
+SYSDATE,
+dob
+)/12
+);
+
+
+
+RETURN age;
+
+
+
+END;
+/

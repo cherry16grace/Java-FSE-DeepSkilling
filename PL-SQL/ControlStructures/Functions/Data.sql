@@ -1,0 +1,22 @@
+INSERT INTO Customers
+VALUES
+(
+1,
+'John',
+TO_DATE('2000-05-15','YYYY-MM-DD'),
+5000
+);
+
+
+
+INSERT INTO Accounts
+VALUES
+(
+101,
+1,
+10000
+);
+
+
+
+COMMIT;
